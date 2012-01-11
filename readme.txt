@@ -1,6 +1,6 @@
 === PressAboutUs Widget ===
 Contributors: Yauhen Palcheuski
-Donate link: https://pressabout.us/
+Donate link: http://pressabout.us/
 Tags: press about,press about widget,press widget,press us,review us,news and reviews,about us,most popular review,news,tabs,dynamic press, press about us,cloud, popular news, press room, press release
 Requires at least: 3.0.0
 Tested up to: 3.3.1
