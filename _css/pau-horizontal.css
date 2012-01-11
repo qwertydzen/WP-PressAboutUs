@@ -1,0 +1,137 @@
+#pressaboutus,
+#pressaboutus a,
+#pressaboutus b,
+#pressaboutus div {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    word-wrap: break-word;
+    zoom: 1;
+}
+
+#pressaboutus a {
+    text-decoration: none;
+    color: #0093da;
+}
+
+#pressaboutus a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+#pressaboutus {
+    background: #fff;
+    -moz-border-radius: 8px;
+    -moz-box-shadow: 0 1px 2px #F4F4F4;
+    border: 1px solid #F4F4F4;
+}
+
+#pressaboutus .pressaboutus-header {
+    font: bold 14px/26px Arial;
+    color: #262626;
+    padding: 0 0 1px 19px;
+    background: #F4F4F4;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+}
+
+#pressaboutus .pressaboutus-content {
+    padding: 6px 0px;
+}
+
+#pressaboutus .pressaboutus-footer {
+    clear: both;
+    text-align: center;
+    font: 11px/10px Arial;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-top: 1px solid #EAEAEA;
+    color: #616161;
+}
+
+#pressaboutus .pressaboutus-footer a {
+    text-decoration: none;
+}
+
+#pressaboutus .pressaboutus-footer a:hover {
+    text-decoration: underline;
+}
+
+#pressaboutus .pressaboutus-content {
+    height: 16px;
+    padding-top: 6px;
+    overflow: hidden;
+}
+
+#pressaboutus .pressaboutus-item {
+    float: left;
+    padding: 0 7px;
+    margin: 0 0 6px -1px;
+    border-left: 1px solid #ACACAC;
+}
+
+#pressaboutus .pressaboutus-item-opened {
+    background: #F5F5F5;
+    -moz-border-radius: 6px;
+}
+
+#pressaboutus .pressaboutus-more,
+#pressaboutus .pressaboutus-hide {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font: bold 10px/22px Arial;
+    color: #aaa;
+    cursor: pointer;
+    z-index: 1;
+    padding-right: 12px;
+}
+
+#pressaboutus .pressaboutus-item-opened .pressaboutus-more {
+    display: none;
+}
+
+#pressaboutus .pressaboutus-more:hover,
+#pressaboutus .pressaboutus-hide:hover {
+    color: #666;
+}
+
+#pressaboutus .pressaboutus-hide {
+    display: none;
+    background-position: right -92px;
+}
+
+#pressaboutus .pressaboutus-item-opened .pressaboutus-hide {
+    display: block;
+}
+
+#pressaboutus .pressaboutus-more-block {
+    border-top: 1px solid #fff;
+    padding: 0 5px 7px;
+    display: none;
+}
+
+#pressaboutus .pressaboutus-item-opened .pressaboutus-more-block {
+    display: block;
+}
+
+#pressaboutus .pressaboutus-domain {
+}
+
+#pressaboutus .pressaboutus-domain a {
+
+}
+
+#pressaboutus .pressaboutus-item-opened .pressaboutus-domain {
+    border-bottom: 1px solid #ECECEC;
+}
+
+#pressaboutus .pressaboutus-title {
+}
+
+#pressaboutus .pressaboutus-description {
+}
+
+#pressaboutus .pressaboutus-keywords {
+}
