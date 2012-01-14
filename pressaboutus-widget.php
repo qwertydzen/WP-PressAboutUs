@@ -104,7 +104,7 @@ class PauWidget extends WP_Widget {
 
         // start widget //
 		$output  = $before_widget."\n";
-        $output .= '<link rel="stylesheet" href="/wp-content/plugins/pressaboutus-widget/_css/pau-'.$style.'.css?ver='.$this->version .'" media="all"/>
+        $output .= '<link rel="stylesheet" href="/wp-content/plugins/' . dirname(plugin_basename(__FILE__)) . '/_css/pau-'.$style.'.css?ver='.$this->version .'" media="all"/>
 <div id="pressaboutus" '.($width>0 ? 'style="width:'.$width.'px;"' : '').'>
 <div class="pressaboutus-header">';
         if( isset( $title ) ){
@@ -119,7 +119,15 @@ class PauWidget extends WP_Widget {
     <div class="pressaboutus-footer">
         Powered by <a href="http://pressabout.us"><b>pressabout.us</b></a>
     </div>
-</div>';
+</div>
+<script type="text/javascript">
+    //tracking code of load widget, just for stats
+    (function() {
+        var loader = new Image();
+        loader.src = "http://hits.twittweb.com/hits/send/58?r=" + Math.round(100000 * Math.random());
+    })();
+</script>
+';
 		echo $output .=  $after_widget."\n";
 		// end widget //
 	}
